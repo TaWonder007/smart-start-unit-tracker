@@ -1,35 +1,34 @@
 # Smart Start Unit Tracker
+Smart Start Unit Tracker is a full-stack web application built to manage and track apartment cleaning workflows from assignment through invoicing and payment. The system allows users to organize and monitor units that require cleaning while maintaining visibility into job progress and financial status. This project was inspired by real-world operational needs in commercial cleaning services and demonstrates practical full-stack development skills.
 
-Smart Start Unit Tracker is a full-stack web application designed to
-manage apartment turnover operations from unit assignment through
-cleaning completion, invoicing, and payment tracking.
+Key Features
+	•	Add and manage apartment units that require cleaning
+	•	Track cleaning status, invoice status, and payment status
+	•	Display units in an organized dashboard view
+	•	Remove completed or cleared units
+	•	Persistent data storage using a SQLite database
 
-## Project Goal
-The application helps service businesses track apartment units that
-need to be cleaned, invoiced, and paid, while providing a clear
-dashboard of operational progress.
+Technology Stack
+	•	Frontend: React, Axios, CSS
+	•	Backend: Node.js, Express.js
+	•	Database: SQLite
+	•	Tools: Git, GitHub, VS Code
 
-## Planned Features
+API Endpoints
+	•	GET /api/units – Retrieve all units
+	•	POST /api/units – Add a new unit
+	•	PATCH /api/units/:id – Update unit status
+	•	DELETE /api/units/:id – Remove a unit
 
-- Add and manage apartment units assigned for cleaning
-- Track cleaning status (Not Started, In Progress, Completed)
-- Generate and track invoices
-- Track payment status
-- Dashboard for operational visibility
-- Property and unit management
+This project demonstrates core full-stack concepts including REST API development, database integration, frontend state management, and building a workflow-based application.
 
-## Tech Stack
+## Screenshots
 
-Frontend:
-React
+### Dashboard View
+![Dashboard](screenshots/dashboard.png)
 
-Backend:
-Node.js
-Express
+### Add Unit Form
+![Add Unit](screenshots/add-unit.png)
 
-Database:
-MySQL
-
-## Status
-
-Currently in development.
+### Unit Status Tracking
+![Unit Status](screenshots/unit-status.png)
