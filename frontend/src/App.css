@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  color: #111;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  color: #555;
+}
+
+/* FORM */
+
+.unit-form {
+  background: white;
+  border-left: 6px solid #d32f2f;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  display: grid;
+  gap: 12px;
+}
+
+.unit-form input,
+.unit-form select,
+.unit-form button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.unit-form input,
+.unit-form select {
+  border: 1px solid #ccc;
+}
+
+.unit-form button {
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.unit-form button:hover {
+  background: #d32f2f;
+}
+
+/* DASHBOARD */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.dashboard-card {
+  background: white;
+  border-left: 6px solid #d32f2f;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h3 {
+  margin: 0 0 6px;
+  color: #555;
+}
+
+.dashboard-card p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* UNIT CARDS */
+
+.units-section {
+  margin-top: 20px;
+}
+
+.unit-card {
+  background: white;
+  border-left: 6px solid #111;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.unit-card h3 {
+  margin-top: 0;
+}
+
+/* STATUS BADGES */
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.status-default {
+  background: #d9d9d9;
+  color: #111;
+}
+
+.status-completed {
+  background: #2e7d32;
+  color: white;
+}
+
+.status-inprogress {
+  background: #f9a825;
+  color: #111;
+}
+
+.status-sent {
+  background: #1565c0;
+  color: white;
+}
+
+.status-pending {
+  background: #6a1b9a;
+  color: white;
+}
+
+.status-paid {
+  background: #2e7d32;
+  color: white;
+}
+
+.status-partial {
+  background: #ef6c00;
+  color: white;
+}
+
+.status-unpaid {
+  background: #c62828;
+  color: white;
+}
+
+/* BUTTON GROUP */
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.button-group button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #e6e6e6;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.button-group button:hover {
+  background: #d32f2f;
+  color: white;
+  border-color: #d32f2f;
+}
+
+/* DELETE BUTTON */
+
+.unit-actions {
+  margin-top: 16px;
+}
+
+.delete-button {
+  border: none;
+  background: #c62828;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.delete-button:hover {
+  background: #8e0000;
+}
